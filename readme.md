@@ -9,5 +9,7 @@
 
 ## 安装方法（install method）
 
+```sh
 sudo cp org.zysuper.ricecracker.daemon.plist /Library/LaunchDaemons
 sudo cp riceCrackerDaemon /usr/bin
+```
