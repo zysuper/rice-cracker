@@ -8,13 +8,20 @@
 - 比之前RDM-Z版本调低了睡眠时间，理论上体验会更好
 
 ## 安装方法（install method）ying
-- 安装老版本的riceCrackerDaemon需要先删除，因为新版本改变了安装路径,卸载方法: 
-
-```sh
-sudo pkill riceCrackerDaemon
-sudo rm /Library/LaunchDaemons/org.zysuper.ricecracker.daemon.plist
-sudo rm /usr/bin/riceCrackerDaemon 
+- 安装的老版本riceCrackerDaemon需要先删除，因为新版本改变了安装路径,卸载方法: 
+双击
+```
+install双击旧版本卸载.command
 ```
 
 - 安装方法
-双击安装命令
+双击
+```
+install双击自动安装.command
+```
+
+- 卸载方法
+双击
+```
+install双击自动卸载.command
+```
