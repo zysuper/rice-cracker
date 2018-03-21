@@ -7,7 +7,7 @@
 - 仅仅只在HiDPI是1440x810或者1600x900时，休眠唤醒后主动设置hiDPI,其他分辨率不做任何动作
 - 比之前RDM-Z版本调低了睡眠时间，理论上体验会更好
 
-## 安装方法（install method）ying
+## 安装方法（install method）
 - 安装的老版本riceCrackerDaemon需要先删除，因为新版本改变了安装路径,卸载方法: 
 双击
 ```
