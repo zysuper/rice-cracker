@@ -8,7 +8,8 @@
 
 io_connect_t  root_port; // a reference to the Root Power Domain IOService
 
-
+//是否需要拉伸。
+int needScale = 0;
 
 void
 MySleepCallBack( void * refCon, io_service_t service,
@@ -23,7 +24,10 @@ MySleepCallBack( void * refCon, io_service_t service,
             break;
         case kIOMessageSystemWillPowerOn:
             NSLog(@">>> kIOMessageSystemWillPowerOn--\n");
-            resetDisplay(refCon);
+            if(needScale == 0) {
+                resetDisplay(refCon);
+                needScale = 1;
+            }
             break;
         case kIOMessageCanSystemSleep:
             NSLog(@"kIOMessageCanSystemSleep--\n");
