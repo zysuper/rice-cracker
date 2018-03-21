@@ -3,8 +3,8 @@
 path=${0%/*}
 sudo launchctl remove /Library/LaunchAgents/org.zysuper.riceCracker.plist
 sudo pkill riceCrackerDaemon
-sudo rm -rf /Library/LaunchAgents/org.zysuper.ricecracker.daemon.plist
-sudo rm -rf /usr/bin/riceCrackerDaemon
+sudo rm -f /Library/LaunchAgents/org.zysuper.ricecracker.daemon.plist
+sudo rm -f /usr/bin/riceCrackerDaemon
 
 echo '卸载米果守护进程完成！'
 echo '卸载程序结束! '
