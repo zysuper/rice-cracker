@@ -1,1 +1,1 @@
-int registerWakeup();
+int registerWakeup(void* tables);

@@ -1,4 +1,4 @@
-
+//#include <map>
 
 typedef union
 {
@@ -32,4 +32,8 @@ extern "C"
 
 void CopyAllDisplayModes(CGDirectDisplayID display, modes_D4** modes, int* cnt);
 void SetDisplayModeNum(CGDirectDisplayID display, int modeNum);
+// void cacheAllDisplayModes(std::map<CGDirectDisplayID,modes_D4*> &displayModes);
+// void clearDisplayModes(std::map<CGDirectDisplayID,modes_D4*> &displayModes);
+void resetDisplay(void* tables);
+
 

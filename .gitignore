@@ -1,3 +1,4 @@
 *.o
 dist
 riceCrackerDaemon
+.DS_Store

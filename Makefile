@@ -16,6 +16,7 @@ dist: riceCrackerDaemon org.zysuper.riceCracker.daemon.plist
 	cp riceCrackerDaemon dist/
 	cp org.zysuper.riceCracker.daemon.plist dist/
 	cp readme.md dist/
+	cp install*.command dist/
 
 riceCrackerDaemon: main.o utils.o wakeupRegister.o
 	$(CC) $^ -o $@ $(ARCH_FLAGS) -framework Foundation -framework ApplicationServices -framework AppKit -framework IoKit 
